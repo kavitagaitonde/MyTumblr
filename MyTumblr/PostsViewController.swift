@@ -37,7 +37,7 @@ class PostsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.tableView.addSubview(infiniteScrollActivityView!)
         
         var insets = self.tableView.contentInset
-        insets.bottom += InfiniteScrollActivityView.defaultHeight
+        insets.bottom += InfiniteScrollActivityView.defaultHeight + 50
         self.tableView.contentInset = insets
         
         // Do any additional setup after loading the view.
