@@ -1,0 +1,5 @@
+.DS_Store
+DerivedData/
+MyTumblr.xcodeproj/xcuserdata
+Pods/Pods.xcodeproj/xcuserdata
+MyTumblr.xcworkspace/xcuserdata

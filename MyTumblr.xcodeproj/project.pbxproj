@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01FD99FD1F6B05FA0004CAE6 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD99FC1F6B05FA0004CAE6 /* PostsViewController.swift */; };
+		01FD99FF1F6B44120004CAE6 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD99FE1F6B44120004CAE6 /* InfiniteScrollActivityView.swift */; };
 		064806611F6A209100F3B2FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064806601F6A209100F3B2FB /* AppDelegate.swift */; };
 		064806661F6A209100F3B2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064806641F6A209100F3B2FB /* Main.storyboard */; };
 		064806681F6A209100F3B2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064806671F6A209100F3B2FB /* Assets.xcassets */; };
 		0648066B1F6A209100F3B2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064806691F6A209100F3B2FB /* LaunchScreen.storyboard */; };
-		064806731F6A227300F3B2FB /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064806721F6A227300F3B2FB /* PostsViewController.swift */; };
 		064806751F6A266D00F3B2FB /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064806741F6A266D00F3B2FB /* PostsTableViewCell.swift */; };
 		064806771F6A305300F3B2FB /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064806761F6A305300F3B2FB /* PostDetailsViewController.swift */; };
 		0F7C6B816FCB0B2E84545604 /* Pods_MyTumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEAA9BDACF7E5FF30970CD9 /* Pods_MyTumblr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01FD99FC1F6B05FA0004CAE6 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		01FD99FE1F6B44120004CAE6 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
 		0648065D1F6A209100F3B2FB /* MyTumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064806601F6A209100F3B2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		064806651F6A209100F3B2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		064806671F6A209100F3B2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0648066A1F6A209100F3B2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0648066C1F6A209100F3B2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		064806721F6A227300F3B2FB /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsViewController.swift; path = ../PostsViewController.swift; sourceTree = "<group>"; };
 		064806741F6A266D00F3B2FB /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		064806761F6A305300F3B2FB /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 		2A6FF317922231479D483D09 /* Pods-MyTumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTumblr/Pods-MyTumblr.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +67,8 @@
 		0648065F1F6A209100F3B2FB /* MyTumblr */ = {
 			isa = PBXGroup;
 			children = (
-				064806721F6A227300F3B2FB /* PostsViewController.swift */,
+				01FD99FC1F6B05FA0004CAE6 /* PostsViewController.swift */,
+				01FD99FE1F6B44120004CAE6 /* InfiniteScrollActivityView.swift */,
 				064806741F6A266D00F3B2FB /* PostsTableViewCell.swift */,
 				064806761F6A305300F3B2FB /* PostDetailsViewController.swift */,
 				064806601F6A209100F3B2FB /* AppDelegate.swift */,
@@ -225,10 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FD99FF1F6B44120004CAE6 /* InfiniteScrollActivityView.swift in Sources */,
 				064806751F6A266D00F3B2FB /* PostsTableViewCell.swift in Sources */,
 				064806771F6A305300F3B2FB /* PostDetailsViewController.swift in Sources */,
 				064806611F6A209100F3B2FB /* AppDelegate.swift in Sources */,
-				064806731F6A227300F3B2FB /* PostsViewController.swift in Sources */,
+				01FD99FD1F6B05FA0004CAE6 /* PostsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
