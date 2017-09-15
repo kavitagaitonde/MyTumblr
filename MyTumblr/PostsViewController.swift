@@ -153,6 +153,13 @@ class PostsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         label1.text = dateFormatter.string(from: date as Date)
         label1.font = label1.font.withSize(10)
         headerView.addSubview(label1)
+        
+        // Add a UILabel for the index
+        let label2 = UILabel(frame: CGRect(x: 350, y: 25, width: 30, height: 20))
+        label2.text = "\(section+1)"
+        label2.font = label.font.withSize(10)
+        headerView.addSubview(label2)
+        
         return headerView
     }
     
